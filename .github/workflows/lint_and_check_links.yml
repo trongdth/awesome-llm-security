@@ -13,8 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "lts/*"
       - name: Run awesome-lint
-        uses: sindresorhus/awesome-lint@main
+        run: npx awesome-lint
 
   check-links:
     runs-on: ubuntu-latest
