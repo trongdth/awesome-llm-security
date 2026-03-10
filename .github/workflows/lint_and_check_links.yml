@@ -1,0 +1,24 @@
+name: Lint and Check Links
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  schedule:
+    - cron: "0 0 * * 0" # Run weekly on Sunday
+
+jobs:
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run awesome-lint
+        uses: sindresorhus/awesome-lint@main
+
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check markdown links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
