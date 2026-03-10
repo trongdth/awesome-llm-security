@@ -16,7 +16,6 @@ Special focus on **Agentic AI**, **RAG Security**, and **Model Context Protocol 
 - [Benchmarks & Evaluation](#benchmarks--evaluation)
 - [Agentic & MCP Security](#agentic--mcp-security)
 - [Best Practices & Blueprints](#best-practices--blueprints)
-- [License](#license)
 
 ---
 
@@ -79,7 +78,3 @@ _A deeper exploration can be found in the [Benchmarks](benchmarks/README.md) dir
 ## Contributing
 
 Your contributions are always welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
-
-## License
-
-To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work. See the [LICENSE](LICENSE) file for details.
