@@ -1,6 +1,5 @@
-# Awesome LLM Security 2025
+# Awesome LLM Security 2025 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 A curated list of awesome resources for Large Language Model (LLM) Security, including papers, tools, benchmarks, and best practices for building secure AI systems.
@@ -17,6 +16,7 @@ Special focus on **Agentic AI**, **RAG Security**, and **Model Context Protocol 
 - [Benchmarks & Evaluation](#benchmarks--evaluation)
 - [Agentic & MCP Security](#agentic--mcp-security)
 - [Best Practices & Blueprints](#best-practices--blueprints)
+- [License](#license)
 
 ---
 
@@ -33,7 +33,7 @@ _For detailed operation guides and blueprints, see the [Guidelines](guidelines/R
 
 ### Prompt Injection
 
-- **Indirect Prompt Injection** - Exploiting untrusted input data (e.g., websites, emails) to compromise LLMs.
+- [Indirect Prompt Injection](https://arxiv.org/abs/2302.12173) - Exploiting untrusted input data (e.g., websites, emails) to compromise LLMs.
 - [Universal and Transferable Adversarial Attacks](https://arxiv.org/abs/2307.15043) - Automated techniques to generate jailbreak sequences.
 
 ### RAG & Training Data Poisoning
@@ -53,26 +53,26 @@ _For detailed operation guides and blueprints, see the [Guidelines](guidelines/R
 
 - [LLM Guard](https://github.com/protectai/llm-guard) - Toolkit for actively protecting LLM interactions in real-time.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - NVIDIA's framework for ensuring safe and controlled conversational AI flows.
-- **ClawMoat** (2026) - Host-level security layer for AI Agents preventing unauthorized file access.
+- [ClawMoat](https://github.com/openclaw/clawmoat) - (2026) Host-level security layer for AI Agents preventing unauthorized file access.
 
 ## Benchmarks & Evaluation
 
 - [JailbreakBench](https://jailbreakbench.github.io/) - A unified leaderboard tracking the jailbreak resistance of State-Of-The-Art (SOTA) models.
 - [ZeroDayBench](https://arxiv.org/abs/2603.02297v1) - Evaluates an AI Agent's capability to discover and patch vulnerabilities in real-world source code.
-- [Existential Threats Benchmark](https://arxiv.org/html/2601.19970v1) - A benchmark assessing potential existential threats posed by powerful AI models.
+- [Existential Threats Benchmark](https://arxiv.org/abs/2601.19970v1) - A benchmark assessing potential existential threats posed by powerful AI models.
 
 _A deeper exploration can be found in the [Benchmarks](benchmarks/README.md) directory._
 
 ## Agentic & MCP Security
 
 - [MSB (MCP Security Bench)](https://openreview.net/forum?id=irxxkFMrry) - The first benchmark designed to evaluate the security of the Model Context Protocol.
-- **AgentLeak** (2026) - Evaluating privacy leakage in multi-agent systems.
+- [AgentLeak](https://arxiv.org/abs/2602.11510v1) - (2026) Evaluating privacy leakage in multi-agent systems.
 - [Agentic Radar](https://github.com/splx-ai/agentic-radar) - A dedicated CLI scanner mapping out vulnerabilities in agentic workflows.
 
 ## Best Practices & Blueprints
 
 - [42 Security Checkpoints for Agents](https://gist.github.com/afrexai-cto/aac533fcc126a5b1aeb79b8bf1d81302) - Practical security guidelines and checkpoints for enterprise AI Agents.
-- **Identity Propagation in MCP** - Guidelines for transmitting user identification transparently across the entire AI execution layer.
+- [Identity Propagation in MCP](https://github.com/OWASP/CheatSheetSeries/issues/2000) - Guidelines for transmitting user identification transparently across the entire AI execution layer.
 
 ---
 
