@@ -52,6 +52,7 @@ _For detailed operation guides and blueprints, see the [Guidelines](guidelines/R
 
 - [LLM Guard](https://github.com/protectai/llm-guard) - Toolkit for actively protecting LLM interactions in real-time.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - NVIDIA's framework for ensuring safe and controlled conversational AI flows.
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open-source (GPL-3.0) Privacy Gateway that tokenizes sensitive data into deterministic placeholders before it reaches the LLM and rehydrates locally, preventing data leakage and exfiltration.
 - [ClawMoat](https://github.com/openclaw/clawmoat) - (2026) Host-level security layer for AI Agents preventing unauthorized file access.
 
 ## Benchmarks & Evaluation
