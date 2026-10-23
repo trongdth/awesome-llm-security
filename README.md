@@ -57,6 +57,7 @@ _For detailed operation guides and blueprints, see the [Guidelines](guidelines/R
 ## Benchmarks & Evaluation
 
 - [JailbreakBench](https://jailbreakbench.github.io/) - A unified leaderboard tracking the jailbreak resistance of State-Of-The-Art (SOTA) models.
+- [PromptSecurity](https://github.com/datasec-lab/PromptSecurity) - Open-source framework for evaluating LLM jailbreak attacks and defenses across models and judgers, with JailbreakDB and PromptSecurity-Eval datasets ([SoK paper](https://arxiv.org/abs/2510.15476); accepted at IEEE S&P 2027).
 - [ZeroDayBench](https://arxiv.org/abs/2603.02297v1) - Evaluates an AI Agent's capability to discover and patch vulnerabilities in real-world source code.
 - [Existential Threats Benchmark](https://arxiv.org/abs/2601.19970v1) - A benchmark assessing potential existential threats posed by powerful AI models.
 
