@@ -50,6 +50,7 @@ _For detailed operation guides and blueprints, see the [Guidelines](guidelines/R
 
 ### Guardrails & Runtime Protection
 
+- [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local approval and policy checks for supported AI coding-agent actions, including shell commands, file access, and MCP tools (maintainer submission, Apache-2.0).
 - [LLM Guard](https://github.com/protectai/llm-guard) - Toolkit for actively protecting LLM interactions in real-time.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - NVIDIA's framework for ensuring safe and controlled conversational AI flows.
 - [ClawMoat](https://github.com/openclaw/clawmoat) - (2026) Host-level security layer for AI Agents preventing unauthorized file access.
